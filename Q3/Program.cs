@@ -1,6 +1,7 @@
 ﻿class Program {
     public static void Main(string[] args) {
         double InputX = double.Parse(Console.ReadLine());
+        InputX = InputX % 2;
         Console.WriteLine(Calculate(InputX));
     }
     public static double Calculate(double x) {
