@@ -6,7 +6,7 @@
         double PY = double.Parse(Console.ReadLine());
         double Round = double.Parse(Console.ReadLine());
         double FirstRadius = Math.Sqrt(Math.Pow(CX-PX,2)+Math.Pow(CY-PY,2));
-        double FirstSeta = (180/Math.PI)*(Math.Atan((CX-PX)/(CY-PY)));
+        double FirstSeta = (180/Math.PI)*(Math.Atan((CY-PY)/(CX-PX)));
 
         while(Round > 0) {
             FirstSeta = FirstSeta + 90;
